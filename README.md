@@ -13,6 +13,8 @@ test of github
 ---
 
 ## ファイル構成
+* bbbbbbbb
+* bbbbbbbb
 
 ---
 
