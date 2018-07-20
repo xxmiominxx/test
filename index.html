@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>ciel de fluer</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Ciel de fleurの公式ECサイト">
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+
+
+
+	<!-- main slide -->
+	<link rel="stylesheet" href="css/flickity.min.css">
+	<script src="js/flickity.pkgd.min.js"></script>
+
+	<!-- responsive ranking slide -->
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<script src="slick/slick.min.js"></script>
+
+
+
+	<script src="index.js"></script>
+
+
+
+
+</head>
+
+
+<body>
+<!-- ▼▼▼ここから▼▼▼ -->
+	<header>
+		<div class="wrap">
+			<h1 id="logo">Ciel de fleur</h1>
+			<div id="headerRight">
+				<div id="loginContainer">
+					<div id="login">
+						<p><a href="#">ログイン</a></p>
+						<p id="signUp"><a href="#">新規登録</a></p>
+						</div>
+						<a href="#" id="loginImg"><img src="images/icon/login.png" width="30" height="30"></a>
+				</div>
+				<div id="cart">
+					<p id="cartIcon">
+						<img src="images/icon/cart.png" width="30" height="30">
+					</p>
+					<ul>
+						<li>4件</li>
+						<li>13,540円</li>
+						<li><a href="#">カートを見る</a></li>
+					</ul>
+				</div>
+				<div id="nav-drawerContainer">
+					<div id="nav-drawer">
+					    <input id="nav-input" type="checkbox" class="nav-unshown">
+					    <label id="nav-open" for="nav-input"><span></span></label>
+					    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+					    <div id="nav-content">
+
+					    	<form id="form2" action="#">
+						    	<input id="input2" type="text" placeholder="商品を検索してください"><!--
+							    /input間で改行したい場合はコメントアウト必須/
+						    	-->
+						    	<input id="submit2" type="submit" value="">
+							</form>
+
+					    	<ul id="navContainer">
+					    		<li>
+					    			<a href="#">トップページ<img src="images/icon/home.png" width="15" height="15"></a>
+					    		</li>
+					    		<li>
+					    			<a href="#">ベース<img src="images/icon/arrow.png" width="12" height="12"></a>
+					    		</li>
+								<li>
+									<a href="#">リップ<img src="images/icon/arrow.png" width="12" height="12"></a>
+								</li>
+								<li>
+									<a href="#">アイ<img src="images/icon/arrow.png" width="12" height="12"></a>
+								</li>
+								<li>
+									<a href="#">スキンケア<img src="images/icon/arrow.png" width="12" height="12"></a>
+								</li>
+								<li>
+									<a href="#">ネイル<img src="images/icon/arrow.png" width="12" height="12"></a>
+								</li>
+								<li>
+									<a href="#">
+										フレグランス
+										<img src="images/icon/arrow.png" width="12" height="12"></a>
+								</li>
+					    		<li id="navRanking">
+					    			<a href="#">ランキング<img src="images/icon/arrow.png" width="12" height="12"></a>
+					    		</li>
+								<li id="navLatest">
+									<a href="#">新着情報<img src="images/icon/arrow.png" width="12" height="12"></a>
+								</li>
+								<li id="navFarst">
+									<a href="#">初めての方へ<img src="images/icon/arrow.png" width="12" height="12"></a>
+								</li>
+								<li id="navFaq">
+									<a href="#">FAQ<img src="images/icon/arrow.png" width="12" height="12"></a>
+								</li>
+								<li id="navContact">
+									<a href="#">お問い合わせ<img src="images/icon/arrow.png" width="12" height="12"></a>
+								</li>
+					    	</ul>
+					    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- ▲▲▲ここまで▲▲▲ -->
+	<div id="wrap">
+		<nav>
+			<ul>
+				<li><a href="#">ベース</a></li>
+				<li><a href="#">リップ</a></li>
+				<li><a href="#">アイ</a></li>
+				<li><a href="#">スキンケア</a></li>
+				<li><a href="#">ネイル</a></li>
+				<li><a href="#">フレグランス</a></li>
+			</ul>
+
+			<div id="formContainer">
+			<form id="form" action="#">
+		    	<input id="input" type="text" placeholder="商品を検索してください"><!--
+			    /input間で改行したい場合はコメントアウト必須/
+		    	-->
+		    	<input id="submit" type="submit" value="">
+			</form>
+			</div>
+		</nav>
+
+		<div id="main-gallery">
+			<div class="gallery-cell"><img src="images/slide/main1.jpg"></div>
+			<div class="gallery-cell"><img src="images/slide/main2.jpg"></div>
+			<div class="gallery-cell"><img src="images/slide/main3.jpg"></div>
+		</div><!-- /#main-gallery -->
+
+
+		<h2>
+			Latest
+		</h2>
+
+		<ul id="latest-container">
+			<li><a href="#"><img src="images/latest/n1.jpg"></a></li>
+			<li><a href="#"><img src="images/latest/n2.jpg"></a></li>
+			<li><a href="#"><img src="images/latest/n3.jpg"></a></li>
+			<li><a href="#"><img src="images/latest/n4.jpg"></a></li>
+			<li><a href="#"><img src="images/latest/n5.jpg"></a></li>
+			<li><a href="#"><img src="images/latest/n6.jpg"></a></li>
+		</ul>
+
+
+		<h2>
+			Ranking
+		</h2>
+
+		<ul id="ranking-container" class="slick">
+			<li><a href="#"><img src="images/ranking/r1.png"></a></li>
+			<li><a href="#"><img src="images/ranking/r2.png"></a></li>
+			<li><a href="#"><img src="images/ranking/r3.png"></a></li>
+			<li><a href="#"><img src="images/ranking/r4.png"></a></li>
+			<li><a href="#"><img src="images/ranking/r5.png"></a></li>
+		</ul>
+
+
+		<h2>
+			Category
+		</h2>
+
+		<ul id="category-container">
+			<li><a href="#"><img src="images/category/base.jpg"></a></li>
+			<li><a href="#"><img src="images/category/lip.jpg"></a></li>
+			<li><a href="#"><img src="images/category/eye.jpg"></a></li>
+			<li><a href="#"><img src="images/category/skincare.jpg"></a></li>
+			<li><a href="#"><img src="images/category/nail.jpg"></a></li>
+			<li><a href="#"><img src="images/category/fragrance.jpg"></a></li>
+		</ul>
+
+
+		<h2>
+			Shopping Information
+		</h2>
+
+		<div id="shoppinginfo-container">
+			<ul>
+				<li>
+					<h3>配送情報</h3>
+					<div id="icon-box"><img src="images/icon/delivery.png"></div>
+					<p>8,000円(税抜)以上のお買い上げで<br>配送料が無料に。<br>通常配送料全国一律450円(税抜)。</p>
+				</li>
+				<li>
+					<h3>支払い情報</h3>
+					<div id="icon-box"><img src="images/icon/pay.png"></div>
+					<p>振込手数料、<br>代引き手数料は無料です。</p>
+				</li>
+				<li>
+					<h3>ギフトサービス</h3>
+					<div id="icon-box"><img src="images/icon/giftservice.png"></div>
+					<p>500円（税抜）にて承っています。<br>メッセージカードも添えられます。</p>
+				</li>
+				<li>
+					<h3>返品・交換情報</h3>
+					<div id="icon-box"><img src="images/icon/trade.png"></div>
+					<p>商品の到着後2週間以内であれば、<br>返品・交換を承ります。</p>
+				</li>
+			</ul>
+		</div>
+
+
+
+	</div><!-- /#wrap -->
+
+
+	<footer>
+		<div id="footer">
+			<h4>Sitemap</h4>
+			<ul id="social-container">
+				<li><a href="#"><img src="images/socialbtn/line.png"></a></li>
+				<li><a href="#"><img src="images/socialbtn/insta.png"></a></li>
+				<li><a href="#"><img src="images/socialbtn/twitter.png"></a></li>
+			</ul>
+
+			<ul id="sitemap-container">
+				<li id="sitemap-box">
+					<h5>商品を選ぶ</h5>
+					<ul id="sitemap-menu">
+						<li><a href="#">ベース</a></li>
+						<li><a href="#">リップ</a></li>
+						<li><a href="#">アイ</a></li>
+						<li><a href="#">スキンケア</a></li>
+						<li><a href="#">ネイル</a></li>
+						<li><a href="#">フレグランス</a></li>
+						<li><a href="#">ランキング</a></li>
+						<li><a href="#">新着商品</a></li>
+					</ul>
+				</li>
+				<li id="sitemap-box">
+					<h5>マイページ</h5>
+					<ul id="sitemap-menu">
+						<li><a href="#">マイページトップ</a></li>
+						<li><a href="#">購入履歴</a></li>
+						<li><a href="#">お気に入りリスト</a></li>
+					</ul>
+				</li>
+				<li id="sitemap-box">
+					<h5>Ciel de fleurについて</h5>
+					<ul id="sitemap-menu">
+						<li><a href="#">Ciel de fleurについて</a></li>
+						<li><a href="#">安心・安全のために</a></li>
+						<li><a href="#">店舗情報</a></li>
+						<li><a href="#">採用情報</a></li>
+					</ul>
+				</li>
+				<li id="sitemap-box">
+					<h5>規約</h5>
+					<ul id="sitemap-menu">
+						<li><a href="#">個人情報保護について</a></li>
+						<li><a href="#">特定商取引法に基づく表記</a></li>
+						<li><a href="#">オンラインショップ利用規約</a></li>
+						<li><a href="#">ソーシャルメディアポリシー</a></li>
+					</ul>
+				</li>
+				<li id="sitemap-box">
+					<h5>困った時には</h5>
+					<ul id="sitemap-menu">
+						<li><a href="#">返品・交換</a></li>
+						<li><a href="#">商品Q&A</a></li>
+						<li><a href="#">サービスQ&A</a></li>
+						<li><a href="#">化粧品使用上の注意</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+	<p class="pageTop"><a href="#container" class="pageTop"><img src="images/icon/pageTop.png" alt="PAGE TOP" /></a></p>
+
+</body>
+
+</html>
